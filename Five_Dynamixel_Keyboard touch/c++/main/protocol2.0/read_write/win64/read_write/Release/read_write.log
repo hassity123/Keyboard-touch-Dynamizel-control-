@@ -1,0 +1,154 @@
+﻿  read_write.cpp
+c:\users\hassen\desktop\c++\include\dynamixel_sdk/group_bulk_read.h(51): warning C4251: 'dynamixel::GroupBulkRead::id_list_': class 'std::vector<uint8_t,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'dynamixel::GroupBulkRead'
+          with
+          [
+              _Ty=uint8_t
+          ]
+  c:\users\hassen\desktop\c++\include\dynamixel_sdk\packet_handler.h(104): note: see declaration of 'std::vector<uint8_t,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=uint8_t
+          ]
+c:\users\hassen\desktop\c++\include\dynamixel_sdk/group_bulk_read.h(52): warning C4251: 'dynamixel::GroupBulkRead::address_list_': class 'std::map<uint8_t,uint16_t,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'dynamixel::GroupBulkRead'
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint16_t
+          ]
+  c:\users\hassen\desktop\c++\include\dynamixel_sdk/group_bulk_read.h(52): note: see declaration of 'std::map<uint8_t,uint16_t,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint16_t
+          ]
+c:\users\hassen\desktop\c++\include\dynamixel_sdk/group_bulk_read.h(53): warning C4251: 'dynamixel::GroupBulkRead::length_list_': class 'std::map<uint8_t,uint16_t,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'dynamixel::GroupBulkRead'
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint16_t
+          ]
+  c:\users\hassen\desktop\c++\include\dynamixel_sdk/group_bulk_read.h(52): note: see declaration of 'std::map<uint8_t,uint16_t,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint16_t
+          ]
+c:\users\hassen\desktop\c++\include\dynamixel_sdk/group_bulk_read.h(54): warning C4251: 'dynamixel::GroupBulkRead::data_list_': class 'std::map<uint8_t,uint8_t *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'dynamixel::GroupBulkRead'
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint8_t *
+          ]
+  c:\users\hassen\desktop\c++\include\dynamixel_sdk/group_bulk_read.h(54): note: see declaration of 'std::map<uint8_t,uint8_t *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint8_t *
+          ]
+c:\users\hassen\desktop\c++\include\dynamixel_sdk/group_bulk_write.h(51): warning C4251: 'dynamixel::GroupBulkWrite::id_list_': class 'std::vector<uint8_t,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'dynamixel::GroupBulkWrite'
+          with
+          [
+              _Ty=uint8_t
+          ]
+  c:\users\hassen\desktop\c++\include\dynamixel_sdk\packet_handler.h(104): note: see declaration of 'std::vector<uint8_t,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=uint8_t
+          ]
+c:\users\hassen\desktop\c++\include\dynamixel_sdk/group_bulk_write.h(52): warning C4251: 'dynamixel::GroupBulkWrite::address_list_': class 'std::map<uint8_t,uint16_t,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'dynamixel::GroupBulkWrite'
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint16_t
+          ]
+  c:\users\hassen\desktop\c++\include\dynamixel_sdk/group_bulk_read.h(52): note: see declaration of 'std::map<uint8_t,uint16_t,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint16_t
+          ]
+c:\users\hassen\desktop\c++\include\dynamixel_sdk/group_bulk_write.h(53): warning C4251: 'dynamixel::GroupBulkWrite::length_list_': class 'std::map<uint8_t,uint16_t,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'dynamixel::GroupBulkWrite'
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint16_t
+          ]
+  c:\users\hassen\desktop\c++\include\dynamixel_sdk/group_bulk_read.h(52): note: see declaration of 'std::map<uint8_t,uint16_t,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint16_t
+          ]
+c:\users\hassen\desktop\c++\include\dynamixel_sdk/group_bulk_write.h(54): warning C4251: 'dynamixel::GroupBulkWrite::data_list_': class 'std::map<uint8_t,uint8_t *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'dynamixel::GroupBulkWrite'
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint8_t *
+          ]
+  c:\users\hassen\desktop\c++\include\dynamixel_sdk/group_bulk_read.h(54): note: see declaration of 'std::map<uint8_t,uint8_t *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint8_t *
+          ]
+c:\users\hassen\desktop\c++\include\dynamixel_sdk/group_sync_read.h(51): warning C4251: 'dynamixel::GroupSyncRead::id_list_': class 'std::vector<uint8_t,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'dynamixel::GroupSyncRead'
+          with
+          [
+              _Ty=uint8_t
+          ]
+  c:\users\hassen\desktop\c++\include\dynamixel_sdk\packet_handler.h(104): note: see declaration of 'std::vector<uint8_t,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=uint8_t
+          ]
+c:\users\hassen\desktop\c++\include\dynamixel_sdk/group_sync_read.h(52): warning C4251: 'dynamixel::GroupSyncRead::data_list_': class 'std::map<uint8_t,uint8_t *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'dynamixel::GroupSyncRead'
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint8_t *
+          ]
+  c:\users\hassen\desktop\c++\include\dynamixel_sdk/group_bulk_read.h(54): note: see declaration of 'std::map<uint8_t,uint8_t *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint8_t *
+          ]
+c:\users\hassen\desktop\c++\include\dynamixel_sdk/group_sync_write.h(51): warning C4251: 'dynamixel::GroupSyncWrite::id_list_': class 'std::vector<uint8_t,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'dynamixel::GroupSyncWrite'
+          with
+          [
+              _Ty=uint8_t
+          ]
+  c:\users\hassen\desktop\c++\include\dynamixel_sdk\packet_handler.h(104): note: see declaration of 'std::vector<uint8_t,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=uint8_t
+          ]
+c:\users\hassen\desktop\c++\include\dynamixel_sdk/group_sync_write.h(52): warning C4251: 'dynamixel::GroupSyncWrite::data_list_': class 'std::map<uint8_t,uint8_t *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'dynamixel::GroupSyncWrite'
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint8_t *
+          ]
+  c:\users\hassen\desktop\c++\include\dynamixel_sdk/group_bulk_read.h(54): note: see declaration of 'std::map<uint8_t,uint8_t *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'
+          with
+          [
+              _Kty=uint8_t,
+              _Ty=uint8_t *
+          ]
+..\..\read_write.cpp(105): warning C4273: 'getch': inconsistent dll linkage
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\conio.h(452): note: see previous definition of 'getch'
+..\..\read_write.cpp(126): warning C4273: 'kbhit': inconsistent dll linkage
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\conio.h(458): note: see previous definition of 'kbhit'
+..\..\read_write.cpp(220): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+  ..\..\read_write.cpp(104): note: see declaration of 'getch'
+..\..\read_write.cpp(232): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+  ..\..\read_write.cpp(104): note: see declaration of 'getch'
+..\..\read_write.cpp(331): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+  ..\..\read_write.cpp(104): note: see declaration of 'getch'
+     Creating library C:\Users\hassen\Desktop\c++\main\protocol2.0\read_write\win64\Release\read_write.lib and object C:\Users\hassen\Desktop\c++\main\protocol2.0\read_write\win64\Release\read_write.exp
+  Generating code
+  5 of 7 functions (71.4%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  read_write.vcxproj -> C:\Users\hassen\Desktop\c++\main\protocol2.0\read_write\win64\Release\read_write.exe
